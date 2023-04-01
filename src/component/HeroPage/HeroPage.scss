@@ -1,0 +1,53 @@
+.homePosition {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    width: 1024px;
+    margin: auto;
+}
+
+.nameHi {
+    color: #fff;
+    font-size: 55px;
+    text-align: start;
+    border-bottom: 1px solid white;
+    width: 1024px;
+    padding: 20px 0 ;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+.jobIntro {
+    letter-spacing: 0.1em;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    color: #ffffff;
+    float:left;
+    width: 26%;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+.icon-container{
+    float: left;
+}
+
+.icon{
+    float: left;
+    margin-right: 20px;
+}
+
+.icon:last-child {
+  margin-right: 0;
+}
+
+.icon img{
+  height:50px;
+  width:50px;
+}
+
+a{
+    margin-left: auto;
+    margin-right: auto;
+}

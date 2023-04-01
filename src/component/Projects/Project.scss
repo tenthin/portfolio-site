@@ -1,0 +1,136 @@
+.my-proj {
+    padding-top: 3rem ;
+    max-width:1024px; 
+    margin: 0 auto;
+}
+
+.project-title {
+    color: #232348;
+    font-size:40px;
+    padding:10px 10px;
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+
+// .project-display {
+//     // display:grid;
+//     // grid-template-columns: 1fr 1fr;
+//     // -webkit-box-align: center;
+//     // align-items: center;
+//     // gap: 10px;
+//     padding-top: 2rem;
+// }
+
+// .project-card{
+
+// }
+
+// .project-img{
+//     float: right;
+// }
+
+// img{
+//     width:50%;
+// }
+
+// .project-body{
+    
+// }
+
+// .project-detail{
+//     color: #fff;
+
+// }
+
+// .project-button {
+
+// }
+// button{
+//     color: #fff;
+//     border: 1px #fff solid;
+//     background-color: #232348;
+//     padding: 1rem 2rem;
+// }
+
+// .my-proj {
+//     // width: 80%;
+//     max-width: 1024px;
+//     margin: 0 auto;
+//   }
+  
+//   .project-title {
+//     text-align: center;
+//     font-size: 2em;
+//     margin-bottom: 2em;
+//   }
+  
+  .project-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project-card {
+    margin-bottom: 2em;
+    border-radius: 5px;
+    border: 1px #fff solid;
+    overflow: hidden;
+  }
+  
+  .project-img img {
+    width: 50%;
+  }
+
+  .project-img {
+    width: calc(50% - 2rem);
+    float: left;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .project-body {
+    padding: 1em;
+    width: calc(50% - 2rem);
+    float: left;
+  }
+  
+  .project-detail {
+    margin-bottom: 1em;
+  }
+  
+  .project-detail h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #fff;
+  }
+  
+  .project-detail p {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #fff;
+  }
+  
+  button {
+    border: 1.5px #fff solid;
+    // outline: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    background-color: #232348;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #fff;
+    color: #232348;
+  }
+  
+  @media (max-width: 768px) {
+    .project-card {
+      width: 100%;
+    }
+  }
+  

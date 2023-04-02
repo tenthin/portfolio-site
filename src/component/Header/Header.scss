@@ -17,3 +17,15 @@
     color: #232348;
     font-size: 80px;
 }
+
+@media (max-width: 767px) {
+    .header {
+      padding: 1rem 0;
+    }
+  
+    .header-logo {
+      width: 100%;
+      margin-top: 0;
+      text-align: center;
+    }
+  }

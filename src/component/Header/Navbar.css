@@ -32,3 +32,21 @@ html {
   color: #fff;
   background-color: #232348;
 }
+
+@media (max-width: 767px) {
+  .navbar {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .button {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .linkbutton{
+    font-size: 1rem;
+  }
+}

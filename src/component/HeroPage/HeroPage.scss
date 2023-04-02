@@ -1,8 +1,8 @@
 .homePosition {
-    display: flex;
-    flex-direction: column;
+    // display: flex;
+    // flex-direction: column;
     padding-top: 5rem;
-    width: 1024px;
+    max-width: 1024px;
     margin: auto;
 }
 
@@ -11,10 +11,10 @@
     font-size: 55px;
     text-align: start;
     border-bottom: 1px solid white;
-    width: 1024px;
+    // width: 1024px;
     padding: 20px 0 ;
     font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .jobIntro {
@@ -23,31 +23,94 @@ font-family: 'Open Sans', sans-serif;
     padding-bottom: 40px;
     font-size: 15px;
     color: #ffffff;
-    float:left;
+    // float:left;
     width: 26%;
     font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .icon-container{
     float: left;
 }
 
-.icon{
-    float: left;
-    margin-right: 20px;
-}
+// .icon{
+//     float: left;
+//     margin-right: 20px;
+// }
 
-.icon:last-child {
-  margin-right: 0;
-}
+// .icon:last-child {
+//   margin-right: 0;
+// }
 
-.icon img{
+.icon-container img{
+margin-right: 1rem;
   height:50px;
   width:50px;
 }
 
-a{
-    margin-left: auto;
-    margin-right: auto;
-}
+@media screen and (max-width: 768px) {
+    .homePosition {
+      padding-top: 2rem;
+    }
+  
+    .nameHi {
+      font-size: 40px;
+      padding: 10px 0;
+      max-width: 710px;
+    }
+  
+    .jobIntro {
+      font-size: 12px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      width: 100%;
+    }
+  
+    .icon-container {
+      width: 100%;
+    //   text-align: center;
+    }
+  
+    .icon {
+      float: none;
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    .homePosition a{
+        margin-left: 25%;
+    }
+
+  }
+  
+  @media screen and (max-width: 480px) {
+    .hero{
+        padding-top: 3rem;
+    }
+    .homePosition {
+        padding-top: 2rem;
+        align-items: center;
+      }
+
+    .nameHi {
+        font-size: 3.2rem;
+        padding: 1rem 1rem;
+        // max-width: 400px;
+    }
+  
+    .jobIntro {
+    //   font-size: 10px;
+    //   padding-top: 5px;
+    //   text-align: center;
+    // margin-left: 4rem;
+        padding-bottom: 10px;
+    }
+
+    // .icon-container{
+    //     margin-left: 2rem;
+    // }
+    .icon img {
+      height: 40px;
+      width: 40px;
+    }
+  }

@@ -26,7 +26,7 @@ function HeroPage() {
           {/* </div> */}
         </div>
       </div>
-      <div>
+      <div className="getstarted">
         <a href="#aboutme">
           <KeyboardArrowDownIcon
             style={{
@@ -34,7 +34,6 @@ function HeroPage() {
               fontSize: 100,
               // width: "50px",
               cursor: "pointer",
-              marginLeft: "140px",
               paddingTop: "3rem",
               // marginRight: "auto",
             }}

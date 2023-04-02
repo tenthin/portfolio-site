@@ -7,37 +7,30 @@ export default function Navbar() {
   return (
     <div className="navbar">
       {/* <button className="button">
-        <NavLink className="linkbutton" to={"/"}>
+        <NavLink cla
+        ssName="linkbutton" to={"/"}>
           Home
         </NavLink>
       </button> */}
-      <button className="button">
-        {/* <button
-        className={`button ${activeButton === "about-me" ? "active" : ""}`}
-        onClick={() => setActiveButton("about-me")}
-      > */}
-        {/* <NavLink className="linkbutton" to={"#aboutme"}> */}
-        <a className="linkbutton" href="#aboutme">
+      <nav>
+      <ul>
+        <li>
+         <a className="linkbutton" href="#aboutme">
           About Me
         </a>
-        {/* </NavLink> */}
-      </button>
-      <button className="button">
-        {/* <NavLink className="linkbutton" to={"/project"}> */}
-        {/* Projects */}
-        {/* </NavLink> */}
-        <a className="linkbutton" href="#projects">
+        </li>
+        <li>
+         <a className="linkbutton" href="#aboutme">
           Projects
         </a>
-      </button>
-      <button className="button">
-        {/* <NavLink className="linkbutton" to={"/contact"}>
+        </li>
+        <li>
+         <a className="linkbutton" href="#aboutme">
           Contact
-        </NavLink> */}
-        <a className="linkbutton" href="#contact">
-          contact
         </a>
-      </button>
+        </li>
+      </ul>
+      </nav>
     </div>
   );
 }

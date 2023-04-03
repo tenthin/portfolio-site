@@ -31,7 +31,7 @@ function HeroPage() {
           <KeyboardArrowDownIcon
             style={{
               color: "white",
-              fontSize: 100,
+              fontSize: 80,
               // width: "50px",
               cursor: "pointer",
               paddingTop: "3rem",

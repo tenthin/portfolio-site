@@ -36,7 +36,7 @@ function App() {
     <>
       <Header />
       <HeroPage />
-      <AboutMe />
+      {/* <AboutMe /> */}
       {/* <Project />
       <Contact />
       <ToTopButton /> */}

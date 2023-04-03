@@ -6,8 +6,10 @@
     margin: auto;
 }
 .hero{
-  padding: 3rem 1rem;
-  height: 100vh;
+
+  height: calc(100dvh - 200px);
+  padding: 3rem 1rem 0;
+
 }
 .nameHi {
     color: #fff;

@@ -6,10 +6,10 @@ import Navbar from "./Navbar";
 function Header() {
   return (
     <div className="header">
-      <div className="header-logo">
+      <h1 className="header-logo">
         {/* <NavLink to="./">tenzin.div</NavLink> */}
         <a href="./">tenzin.dev</a>
-      </div>
+      </h1>
       <div className="header-navbar">
         <Navbar />
       </div>

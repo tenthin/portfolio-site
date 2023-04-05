@@ -40,14 +40,50 @@ nav ul li a:hover {
   background-color: #232348;
 }
 
+.menu-icon{
+  display: none;
+}
+
 @media (max-width: 480px) {
   .header-navbar {
     width: 100%!important;
     margin-left: 0;
   }
 
+  nav{
+    display: none;
+  }
+  nav.navbar {
+    position: absolute;
+    right: 0;
+    top: 6rem;
+    background: rgba(255,255,255,0.9);
+    width:100%;
+}
   nav ul {
       justify-content: center;
+  }
+  nav ul li {
+    font-size: 2rem;
+    line-height: 2;
+}
+  .navbar.show ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.navbar.show {
+    display: flex;
+    flex-direction: column;
+}
+
+  .menu-icon{
+    display: block;
+    margin-left: 22rem;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-bottom: 3rem;
   }
 }
 

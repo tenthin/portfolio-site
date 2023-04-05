@@ -9,30 +9,6 @@ import ToTopButton from "./component/ToTop/ToTopButton";
 
 function App() {
   return (
-    // <Router>
-    //   <>
-    //     <Header />
-
-    //     <Switch>
-    //       <Route exact path="/">
-    //         <Home />
-    //       </Route> */}
-    //       {/* <Route exact path="contact">
-    //         <Contact />
-    //       </Route>
-    //       <Route exact path="prjects">
-    //         <Project />
-    //       </Route>
-    //       <Route exact path="aboutme">
-    //         <AboutMe />
-    //       </Route>
-    //     </Switch>
-    //     <HeroPage />
-    //     <AboutMe />
-    //     <Project />
-    //     <Contact />
-    //   </>
-    // </Router>
     <>
       <Header />
       <HeroPage />

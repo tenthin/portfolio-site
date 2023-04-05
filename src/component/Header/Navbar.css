@@ -82,6 +82,7 @@ nav ul li a:hover {
 .navbar.show {
     display: flex;
     flex-direction: column;
+    z-index: 999;
 }
 
   .menu-icon{

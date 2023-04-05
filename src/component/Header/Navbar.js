@@ -8,22 +8,30 @@ export default function Navbar() {
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
+
+  const handleItemClick = () => {
+    setShowMenu(false);
+  };
   return (
     <div className="navbar-container">
       <nav className={showMenu ? "navbar show" : "navbar"}>
         <ul>
           <li>
-            <a className="linkbutton" href="#aboutme">
+            <a className="linkbutton" href="#aboutme" onClick={handleItemClick}>
               About Me
             </a>
           </li>
           <li>
-            <a className="linkbutton" href="#project">
+            <a
+              className="linkbutton"
+              href="#projects"
+              onClick={handleItemClick}
+            >
               Projects
             </a>
           </li>
           <li>
-            <a className="linkbutton" href="#contact">
+            <a className="linkbutton" href="#contact" onClick={handleItemClick}>
               Contact
             </a>
           </li>

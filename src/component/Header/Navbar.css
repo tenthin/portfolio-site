@@ -76,6 +76,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     padding: 0;
+    text-align: center;
 }
 
 .navbar.show {

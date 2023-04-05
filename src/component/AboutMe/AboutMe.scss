@@ -12,11 +12,6 @@
 }
 
 .intro {
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: start;
-    // align-items: center;
-    // height: 100vh;
     font-size: 20px;
     line-height: 0.8cm;
     padding-top: 2rem;
@@ -24,8 +19,17 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 780px) {
+    .aboutme-title{
+        text-align: center;
+    }
     .intro {
-        width: 100%;
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .intro br{
+    content: "\00a0"; /* Insert a non-breaking space */
+    display: block; /* Set display to block */
+    margin-bottom: 20px; /* Set margin bottom to create line gap */
     }
 }

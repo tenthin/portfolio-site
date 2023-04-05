@@ -77,3 +77,24 @@ input:focus, textarea:focus {
    background-color: #f2f2f2;
    color: #232348;
  }
+@media(max-width:780px){
+ .contact-head{
+  font-size: 3rem;
+  text-align: center;
+ }
+ .leave-msg{
+  text-align: center;
+  padding: 1rem;
+ }
+
+ form{
+  text-align: center;
+ }
+
+ .form-name{
+  width: 100%;
+ }
+ .form-email{
+  width: 100%;
+ }
+}

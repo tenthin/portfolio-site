@@ -4,7 +4,7 @@ import "./ToTopButton.css";
 
 export default function () {
   return (
-    <div>
+    <div className="toparrow">
       <a href="/">
         <ArrowUpwardIcon
           style={{
@@ -14,6 +14,7 @@ export default function () {
             fontSize: 50,
             width: "50px",
             cursor: "pointer",
+            display: "none",
           }}
         />
       </a>

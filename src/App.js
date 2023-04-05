@@ -12,10 +12,10 @@ function App() {
     <>
       <Header />
       <HeroPage />
-      {/* <AboutMe /> */}
-      {/* <Project />
+      <AboutMe />
+      <Project />
       <Contact />
-      <ToTopButton /> */}
+      <ToTopButton />
     </>
   );
 }

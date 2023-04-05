@@ -1,3 +1,8 @@
 html{
     scroll-behavior: smooth;
 }
+@media(max-width:780px){
+    .toparrow-ArrowUpwardIcon{
+        display: none;
+    }
+}

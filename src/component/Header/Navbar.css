@@ -44,7 +44,12 @@ nav ul li a:hover {
   display: none;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 780px) {
+
+  .navbar-container{
+
+  }
+
   .header-navbar {
     width: 100%!important;
     margin-left: 0;
@@ -56,7 +61,7 @@ nav ul li a:hover {
   nav.navbar {
     position: absolute;
     right: 0;
-    top: 6rem;
+    top: 7rem;
     background: rgba(255,255,255,0.9);
     width:100%;
 }
@@ -79,11 +84,12 @@ nav ul li a:hover {
 }
 
   .menu-icon{
+    width: 4rem;
     display: block;
-    margin-left: 22rem;
-    font-size: 2rem;
+    float: right;
+    font-size: 4rem;
     cursor: pointer;
-    margin-bottom: 3rem;
+    line-height: 0;
   }
 }
 

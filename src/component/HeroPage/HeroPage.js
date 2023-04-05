@@ -8,7 +8,10 @@ function HeroPage() {
     <div className="hero">
       <div className="homePosition">
         <div className="nameHi">
-          Hi, I am <b>Tenzin Thinley</b>
+          Hi, I am{" "}
+          <span>
+            <b>Tenzin Thinley</b>
+          </span>
         </div>
         <div className="jobIntro">A FRONTEND DEVELOPER WITH</div>
         <div className="icon-container">

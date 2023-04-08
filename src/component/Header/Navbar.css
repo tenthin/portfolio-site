@@ -58,6 +58,7 @@ nav ul li a:hover {
   nav{
     display: none;
   }
+  
   nav.navbar {
     position: absolute;
     right: 0;

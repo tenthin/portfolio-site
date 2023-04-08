@@ -1,8 +1,13 @@
 import React from "react";
 import "./Project.scss";
 import { projects } from "./ProjectData";
+import { NavLink } from "react-router-dom";
 
 function Project() {
+  const handleOpenLink = (link) => {
+    // Open the link in a new window
+    window.open(link, "_blank");
+  };
   return (
     <div className="my-proj" id="projects">
       <div className="project-title">MY PROJECTS</div>
@@ -19,7 +24,9 @@ function Project() {
                 <p>{project.summary}</p>
               </div>
               ` `{/* <NavLink to={`/fullproject/${project.id}`}> */}
-              <button>FULL PROJECT</button>
+              <button onClick={() => handleOpenLink(project.link)}>
+                FULL PROJECT
+              </button>
               {/* </NavLink> */}
             </div>
           </div>
